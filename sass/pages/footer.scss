@@ -1,0 +1,20 @@
+footer{
+  min-height: 97px;
+  background-image: linear-gradient(to top, gainsboro 0%, rgb(246, 246, 246) 100%);
+}
+footer .footer-menu ul{
+  list-style-type: none;
+  float: left;
+}
+footer .footer-menu ul li{
+  float: left;
+  margin: 77px 10px 10px 10px;
+  color: black;
+  font-family: 'Arial',sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+footer .footer-menu ul li:after{
+  content: "I";
+  margin-left: 10px;
+}

@@ -1,0 +1,89 @@
+//Гармошка
+
+.harmony-cont{
+  background-color: white;
+}
+.harmony-cont .harmony{
+  margin: 80px 0 60px 0;
+}
+.harmony-cont .harmony > ul > li{
+  display: block;
+  background-color: white;
+  border-bottom: 2px dotted grey;
+  cursor: pointer;
+  position: relative;
+}
+.harmony-cont .harmony > ul > li .active{
+  background-color: black;
+}
+.harmony-cont .harmony > ul > li:before{
+  content: ">";
+  position: absolute;
+  top: 5px;
+  left: 0;
+}
+.harmony-cont .harmony > ul > li:last-child{
+  border-bottom: none;
+}
+.harmony-cont .harmony > ul > li > span{
+  display: block;
+  padding: 5px 10px 5px 20px;
+}
+.harmony-cont .harmony > ul > li > ul{
+  display: none;
+}
+.harmony-cont .harmony > ul > li > ul > li{
+  list-style-type: none;
+  padding: 0 0 0 60px;
+  font-family: 'Heavenetica4LtSH',sans-serif;
+  font-size: 14px;
+  color: white;
+  position: relative;
+}
+.harmony-cont .harmony > ul > li > ul > li:before{
+  content: ".";
+  position: absolute;
+  top:6px;
+  left: 45px;
+}
+.harmony-cont .harmony > ul > li > ul > li a{
+  display: block;
+  padding: 10px 0 10px 0;
+}
+.harmony-cont .harmony > ul > li > ul > li:hover{
+  background-color: rgb(212, 212, 212);
+}
+.harmony-cont .harmony > ul > li > ul > li a:hover{
+  color: white;
+}
+
+//кнопка и текст
+
+.harmony-cont .button{
+  margin: 80px auto 30px;
+  display: block;
+  width: 185px;
+  height: 53px;
+  background-color: rgb(224, 224, 224);
+  border: 2px solid black;
+  color: rgb(5, 5, 5);
+  font-family: 'Heavenetica5PSBldSH',sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 53px;
+  text-align: center;
+}
+.harmony-cont .button:hover{
+  background-color: black;
+  color: white;
+}
+.harmony-cont .text{
+  margin: 0 0 60px 0;
+  color: rgb(1, 1, 1);
+  font-family: 'Heavenetica4LtSH',sans-serif;
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: bold;
+  text-align: left;
+}

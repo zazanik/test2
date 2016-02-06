@@ -1,0 +1,21 @@
+.slide-cont{
+  background: #0069b8 url("../images/info-bg.png") no-repeat;
+  background-size: cover;
+  min-height: 355px;
+  text-align: center;
+}
+.slide-cont h2{
+  margin: 90px 0 20px 0;
+  color: white;
+  font-family: 'Heavenetica3ThinSH',sans-serif;
+  font-size: 77px;
+  font-weight: 400;
+}
+.slide-cont .text{
+  margin: 0 auto 50px;
+  color: white;
+  font-family: 'Heavenetica4LtSH',sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  max-width: 340px;
+}

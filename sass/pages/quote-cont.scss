@@ -1,0 +1,174 @@
+.request-cont .quote{
+  display: none;
+}
+.request-cont{
+  margin: 200px 0 50px 0;
+}
+.request-cont .container{
+  position: relative;
+}
+
+
+.request-cont h2{
+  margin: 40px 0 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: rgb(1, 1, 1);
+  font-family: 'Heavenetica4LtSH',sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}
+.request-cont ul{
+  list-style-type: none;
+  background-color: white;
+}
+.request-cont fieldset{
+  border: 2px solid black;
+  margin-bottom: 220px;
+  position: relative;
+}
+
+.request-cont .quote-arrow{
+  background: rgba(138, 137, 137, 0.24) url("../images/quote-arrow.png") no-repeat center center;
+  height: 51px;
+  width: 91px;
+  position: absolute;
+  top: -120px;
+  right: 15%;
+  cursor: pointer;
+}
+.request-cont ul li{
+  margin: 10px 10px 0 0;
+  float: right;
+  clear: both;
+}
+.request-cont ul li label{
+  color: rgb(1, 1, 1);
+  font-family: 'Heavenetica4LtSH',sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+
+}
+.request-cont .first-part li input{
+  width: 120px;
+  margin: 5px 0 5px 0;
+  border: 1px solid rgb(200, 200, 200);
+}
+.request-cont .first-part li:nth-child(n+4) input{
+  width: 70px;
+}
+.request-cont .contOfInterest li:last-child input{
+  width: 100px;
+}
+.request-cont .contOfInterest li input{
+  width: 120px;
+  border: 1px solid rgb(200, 200, 200);
+}
+.request-cont .contOfInterest li textarea{
+  width: 120px;
+  border: 1px solid rgb(200, 200, 200);
+}
+.request-cont .contOfInterest li label{
+  font-family: 'Heavenetica2ULtSH',sans-serif;
+  font-size: 11px;
+  vertical-align: top;
+  padding: 6px 0 0 0;
+}
+.request-cont .checkbox-cont li{
+  float: right;
+  clear: both;
+}
+.request-cont .checkbox-cont li label{
+  width: 120px;
+}
+.checkbox-cont li input{
+  margin: 0 30px 0 0;
+}
+
+.request-cont .contOfInterest .button{
+  width: 103px;
+  height: 27px;
+  margin: 10px 0 20px 0;
+  background-color: black;
+  color: white;
+}
+.request-cont .contOfInterest .button:hover{
+  background-color: rgb(224, 224, 224);
+  color: black;
+}
+
+@media screen and (min-width: 450px) {
+  .request-cont .first-part li input{
+    width: 250px;
+    margin: 5px 0 5px 0;
+  }
+  .request-cont .first-part li:nth-child(n+4) input{
+    width: 195px;
+  }
+  .request-cont .contOfInterest li input{
+    width: 250px;
+  }
+  .request-cont .contOfInterest li textarea{
+    width: 250px;
+  }
+}
+@media screen and (min-width: 550px) {
+  .request-cont .first-part li input{
+    width: 350px;
+    margin: 5px 0 5px 0;
+  }
+  .request-cont .first-part li:nth-child(n+4) input{
+    width: 296px;
+  }
+  .request-cont .contOfInterest li input{
+    width: 350px;
+  }
+  .request-cont .contOfInterest li textarea{
+    width: 350px;
+  }
+}
+@media screen and (min-width: 650px) {
+  .request-cont .first-part li input{
+    width: 450px;
+    margin: 5px 0 5px 0;
+  }
+  .request-cont .first-part li:nth-child(n+4) input{
+    width: 395px;
+  }
+  .request-cont .contOfInterest li input{
+    width: 450px;
+  }
+  .request-cont .contOfInterest li textarea{
+    width: 450px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .request-cont fieldset{
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  .request-cont .first-part li input{
+    width: 485px;
+    margin: 5px 200px 5px 0;
+  }
+  .request-cont .first-part li:nth-child(n+4) input{
+    width: 370px;
+    margin: 5px 200px 5px 0;
+  }
+  .request-cont .contOfInterest li input{
+    width: 485px;
+    margin: 5px 200px 5px 0;
+  }
+   .request-cont .checkbox-cont  li {
+    margin-right: 200px;
+  }
+  .request-cont .contOfInterest li textarea{
+    width: 485px;
+    margin: 5px 200px 5px 0;
+  }
+  .request-cont .contOfInterest li:last-child input{
+    margin-right: 200px;
+  }
+
+
+}
