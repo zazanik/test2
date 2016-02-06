@@ -1,0 +1,126 @@
+header{
+  background-color: rgb(218, 218, 218);
+  position: relative;
+  z-index: 999999;
+}
+.h-page ul{
+  list-style-type: none;
+}
+
+.h-page nav > ul > li {
+  height: 30px;
+  width: 80px;
+  cursor: pointer;
+  font-family: "Heavenetica4LtSH", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.h-page nav > ul > li:hover{
+  background-color: rgb(201, 201, 201);
+}
+.h-page nav > ul > li > ul{
+  width: 110px;
+  position:absolute;
+  left:0;
+  display:none;
+  background-color: rgb(201, 201, 201);
+}
+.h-page nav > ul > li > ul > li{
+  display: block;
+}
+.h-page nav > ul > li > ul > li:hover{
+  background-color: white;
+}
+
+.h-page .headerRightNav{
+  float: right;
+}
+.h-page .headerRightNav > li{
+  float: left;
+}
+
+.h-page .headerRightNav .cart{
+  color: rgb(1, 1, 1);
+  font-family: "Heavenetica4LtSH",sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.h-page .headerRightNav .sign{
+  width: 104px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  font-family: "Heavenetica5SH",sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 30px;
+}
+.h-page .headerRightNav .flag-menu{
+  width: 79px;
+  height: 16px;
+  color: rgb(1, 1, 1);
+  font-family: "Heavenetica3ThinSH",sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+  position: relative;
+}
+.h-page .headerRightNav .flag-menu ul li{
+  background-color: white;
+  height: 16px;
+}
+
+.h-page .headerRightNav .flag-menu ul li:nth-child(n+2){
+  display: none;
+}
+
+.h-page .headerRightNav .flag-menu ul a:after{
+  content: "";
+  background: url("../images/arrow-down.png");
+  height: 6px;
+  width: 10px;
+  position: absolute;
+  top: 5px;
+  right: 4px;
+}
+
+@media screen and (max-width: 767px) {
+  .hamburger {
+    top: 15px;
+    left: 0;
+    line-height: 0;
+  }
+  .cross{
+    top: 25px;
+    left: 4px;
+    line-height: 0;
+  }
+  nav {
+    display: none;
+  }
+  nav.navHamburger {
+    display: block;
+  }
+  .cross {
+    visibility: hidden;
+  }
+  #navigation{
+    float: left;
+    margin-top: 30px;
+  }
+  .h-page nav > ul > li > ul {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 768px){
+  .hamburger, .cross{
+    display: none;
+  }
+  .h-page nav > ul > li {
+    float:left;
+    position:relative;
+    z-index:500;
+    width: 80px;
+  }
+}

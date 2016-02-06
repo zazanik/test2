@@ -1,0 +1,27 @@
+//clearfix
+.container::before,
+.container::after,
+.clearfix::before,
+.clearfix::after{
+  content: '';
+  display: table;
+}
+.container::after,
+.clearfix::after{
+  clear: both;
+}
+
+ul, li{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  text-decoration: none;
+}
+a:link{
+  text-decoration: none;
+}

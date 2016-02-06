@@ -1,0 +1,44 @@
+//header
+.h-page nav > ul > li {
+  padding: 4px 0 10px 15px;
+  margin-right: 20px;
+}
+
+.h-page nav > ul > li > ul > li:first-child {
+  margin-top: 20px;
+}
+.h-page nav > ul > li > ul > li {
+  margin: 10px 0 10px 0;
+  padding: 5px 0 5px 15px;
+}
+
+.h-page .headerRightNav > li {
+  margin: 0 40px 0 0;
+}
+.h-page .headerRightNav .cart {
+  margin-top: 4px;
+}
+.h-page .headerRightNav .flag-menu {
+  margin: 6px 0 0 0;
+}
+.h-page .headerRightNav .flag-menu li a {
+  margin-left: 12px;
+}
+.h-page .headerRightNav .flag-menu li a img {
+  margin-right: 10px;
+}
+@media screen and (max-width: 767px){
+  .h-page .headerRightNav > li {
+    margin: 0 10px 0 0;
+  }
+}
+
+
+//top slider
+
+.top-slider .bxslider{
+  margin: 25px 0 0 0;
+}
+.top-slider-line {
+  margin: 0 0 30px 0;
+}

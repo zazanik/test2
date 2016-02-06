@@ -1,0 +1,59 @@
+.top-goods{
+  margin: 100px 0 0 0;
+  text-align: center;
+}
+.top-goods h2{
+  position: relative;
+  color: black;
+  font-family: 'Arial',sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+.top-goods h2:after{
+  margin: 0 0 20px 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  background-color: rgb(11, 17, 21);
+  position: absolute;
+  top: 25px;
+  left: 0;
+}
+.top-goods h3{
+  color: black;
+  font-family: 'Arial',sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+.top-goods #carusel li{
+  border: 1px solid rgb(229, 229, 229);
+}
+.top-goods #carusel li img{
+  width: 148px;
+  height: 125px;
+  margin: 0 auto 45px;
+}
+.top-goods .bx-wrapper{
+  margin: 30px auto 0 auto;
+}
+.top-goods .bx-wrapper .bx-pager {
+  display: none;
+}
+.top-goods .bx-wrapper .bx-prev {
+  left: 0;
+  background: url("../images/black-prev-arrow.png") no-repeat 100%;
+  background-size: cover;
+}
+.top-goods .bx-wrapper .bx-next {
+  right: 0;
+  background: url("../images/black-next-arrow.png") no-repeat 100%;
+  background-size: cover;
+}
+@media screen and (min-width: 992px){
+  .top-goods .bx-wrapper .bx-prev {
+    left: -50px;
+  }
+  .top-goods .bx-wrapper .bx-next {
+    right: -50px;
+  }
+}
